@@ -37,7 +37,7 @@ function mostrarLetrasErradas() {
 }
 
 function mostrarLetrasCertas() {
-  const container = document.querySelector(".palavra-secreta-container");
+  const container = document.querySelector(".letras-certas-container");
   container.innerHTML = "";
   palavraSecreta.split("").forEach((letra) => {
     if (letrasCorretas.includes(letra)) {
